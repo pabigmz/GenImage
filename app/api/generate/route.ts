@@ -6,7 +6,7 @@ export async function POST(req: NextRequest) {
   const { prompt, steps, cfg_scale, width, height, sampler_index} = body;
 
   // เรียก API ไปยัง Stable Diffusion ที่รันใน RunPod
-  const res = await fetch("https://sv8nlp2ceq7r94-3000.proxy.runpod.net/sdapi/v1/txt2img", {
+  const res = await fetch("-------------------", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

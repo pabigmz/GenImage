@@ -6,7 +6,7 @@ export async function POST(req: NextRequest) {
   const { prompt, steps, cfg_scale, width, height, sampler_index} = body;
 
   // เรียก API ไปยัง Stable Diffusion ที่รันใน RunPod
-  const res = await fetch("-------------------", {
+  const res = await fetch("...", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

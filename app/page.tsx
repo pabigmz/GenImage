@@ -50,6 +50,20 @@ export default function Home() {
       <div className="max-w-xl mx-auto bg-white p-6 rounded-2xl shadow">
         <h1 className="text-2xl font-bold mb-4 text-black">🎨 AI Image Generator</h1>
 
+        <span className="text-gray-600 mb-4 block">
+          วิธีการใช้งานโดยการป้อนคำอธิบายภาพที่ต้องการสร้าง แล้วกดปุ่ม "Generate Image"
+          <br />
+          <ul className="list-disc pl-5 mt-2">
+            <li>Prompt ต้องเป็นภาษาอังกฤษทั้งหมด</li>
+            <li>สามารถใส่คำอธิบายได้หลายบรรทัด</li>
+            <li>ต้องมีคำศัพท์คำว่า "Bosuak" อยู่ในคำสั่งด้วย</li>
+          </ul>
+        </span>
+
+        <span className="text-green-600 mb-4 block">
+          <strong>ตัวอย่าง Prompt:</strong> "A beautiful landscape with mountains and a river, Bosuak style"
+        </span>
+
         <label className="block mb-1 font-medium text-black">Prompt</label>
         <textarea
           className="w-full p-2 mb-4 border rounded text-black"
